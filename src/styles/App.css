@@ -1,0 +1,6 @@
+/* App.css - Component specific styles */
+.App {
+  text-align: center;
+}
+
+/* Navigation specific styles will be handled by individual components */
