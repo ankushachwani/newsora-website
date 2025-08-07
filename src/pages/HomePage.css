@@ -298,6 +298,74 @@
   }
 }
 
+/* Data Deletion Section */
+.data-deletion {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+.data-deletion-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.data-deletion h2 {
+  margin-bottom: var(--spacing-md);
+  color: var(--text-primary);
+  font-size: 2rem;
+}
+
+.data-deletion p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.6;
+}
+
+.data-deletion .btn {
+  margin-top: var(--spacing-sm);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  .preview-content {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-xl);
+  }
+  
+  .preview-text {
+    max-width: 100%;
+  }
+  
+  .app-video-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+  }
+  
+  .data-deletion h2 {
+    font-size: 1.8rem;
+  }
+  
+  .data-deletion p {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 480px) {
   .hero-title {
     font-size: 2rem;
@@ -319,5 +387,13 @@
   .phone-mockup {
     width: 200px;
     height: 400px;
+  }
+  
+  .data-deletion h2 {
+    font-size: 1.5rem;
+  }
+  
+  .data-deletion p {
+    font-size: 0.95rem;
   }
 }

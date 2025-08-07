@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/newsora-website/static/css/main.2d284ed0.css",
-    "main.js": "/newsora-website/static/js/main.8be8e526.js",
+    "main.css": "/newsora-website/static/css/main.5cee60ad.css",
+    "main.js": "/newsora-website/static/js/main.ba53b67b.js",
     "static/media/Newsora_Logo_Transparent.png": "/newsora-website/static/media/Newsora_Logo_Transparent.0c15c7fcd81ad9c91d06.png",
     "index.html": "/newsora-website/index.html",
-    "main.2d284ed0.css.map": "/newsora-website/static/css/main.2d284ed0.css.map",
-    "main.8be8e526.js.map": "/newsora-website/static/js/main.8be8e526.js.map"
+    "main.5cee60ad.css.map": "/newsora-website/static/css/main.5cee60ad.css.map",
+    "main.ba53b67b.js.map": "/newsora-website/static/js/main.ba53b67b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d284ed0.css",
-    "static/js/main.8be8e526.js"
+    "static/css/main.5cee60ad.css",
+    "static/js/main.ba53b67b.js"
   ]
 }

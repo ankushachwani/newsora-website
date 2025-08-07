@@ -245,6 +245,34 @@ const HomePage = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* Data Deletion Section */}
+      <section className="data-deletion section">
+        <div className="container">
+          <motion.div 
+            className="data-deletion-content text-center"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <h2>Need to Delete Your Account?</h2>
+            <p>
+              If you have a Newsora account and want to delete it, click the button below to submit a deletion request.
+            </p>
+            <motion.a 
+              href="https://forms.gle/pcwUm8K8iGZED9K68" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn btn-secondary btn-large"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              🗑️ Delete Account
+            </motion.a>
+          </motion.div>
+        </div>
+      </section>
     </div>
   );
 };
